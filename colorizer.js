@@ -1,3 +1,4 @@
+// colorizer.js
 function Colorizer(_, $) {
     return {
         rgb2hex: function (rgb) {
