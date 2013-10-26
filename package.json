@@ -1,5 +1,6 @@
 {
   "name": "karma-coverage-test",
+  "description": "Bare bones example of Karma with the Istanbul coverage reporter.",
   "scripts": {
     "test": "grunt karma"
   },
@@ -8,10 +9,10 @@
     "url": "https://github.com/cobbdb/karma-coverage-example.git"
   },
   "dependencies": {
-    "grunt": "*",
-    "grunt-cli": "*",
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.9",
     "karma": "0.10.2",
-    "grunt-karma": "*",
-    "karma-coverage": "*"
+    "grunt-karma": "0.6.2",
+    "karma-coverage": "0.1.0"
   }
 }
