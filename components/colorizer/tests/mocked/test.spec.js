@@ -1,4 +1,8 @@
-// test/test.spec.js
+/**
+ * Test the Colorizer module by mocking all jQuery
+ * and DOM interactions. This is just to prove that
+ * you don't always need a template.
+ */
 describe('Colorizer', function () {
     describe('rgb2hex', function () {
         it('converts colors from rgb to hex', function () {
@@ -17,7 +21,7 @@ describe('Colorizer', function () {
         });
         
         it('changes css background-color rule', function () {
-            var cssSpy = jasmine.createSpy('$.css');
+            var cssSpy = jasmine.createSpy('jQ css method');
             var arg;
             var jqMock = function (id) {
                 arg = id;

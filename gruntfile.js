@@ -13,12 +13,12 @@ module.exports = function (grunt) {
                     captureTimeout: 10000,
                     reportSlowerThan: 300,
                     files: [
-                        '**/components/**/*',
-                        '**/vendor/**/*'
+                        'components/**/*',
+                        'vendor/*'
                     ],
                     preprocessors: {
-                        '**/components/**/tests/**/*.html': 'html2js',
-                        '**/components/**/source/**/*.js': 'coverage'
+                        'components/**/source/**/*.js': 'coverage',
+                        'components/**/tests/**/*.html': 'html2js'
                     },
                     plugins: [
                         'karma-jasmine',
