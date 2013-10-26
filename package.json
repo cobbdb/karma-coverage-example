@@ -1,7 +1,7 @@
 {
   "name": "karma-coverage-test",
   "scripts": {
-    "test": "grunt karma:once"
+    "test": "grunt karma"
   },
   "dependencies": {
     "grunt": "*",
