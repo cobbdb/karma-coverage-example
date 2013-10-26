@@ -21,6 +21,13 @@ function Colorizer(_, $) {
          */
         color: function (id, color) {
             $(id).css('background-color', color);
+        },
+        /**
+         * This method is untested and reports will show a
+         * gap in test coverage.
+         */
+        untested: function () {
+            return 'Hi.';
         }
     };
 }
