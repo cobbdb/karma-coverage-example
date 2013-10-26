@@ -1,29 +1,13 @@
 {
-  "name": "colorizer",
-  "version": "0.0.0",
-  "description": "ERROR: No README.md file found!",
-  "main": "colorizer.js",
-  "directories": {
-    "test": "test"
-  },
+  "name": "karma-coverage-test",
   "scripts": {
-    "test": "./node_modules/.bin/grunt"
+    "test": "grunt karma:once"
   },
-  "repository": "",
-  "author": "",
-  "license": "BSD",
   "dependencies": {
-    "karma-script-launcher": "0.0.1",
-    "karma-firefox-launcher": "0.0.2",
-    "karma-chrome-launcher": "0.0.1",
-    "karma-requirejs": "0.0.1",
-    "karma-jasmine": "0.0.1",
-    "karma-coffee-preprocessor": "0.0.1",
-    "karma-phantomjs-launcher": "0.0.2",
-    "karma": "~0.9.3",
-    "karma-html2js-preprocessor": "0.0.1",
-    "grunt": "~0.4.1",
-    "grunt-karma": "~0.5.0",
-    "grunt-cli": "~0.1.9"
+    "grunt": "*",
+    "grunt-cli": "*",
+    "karma": "0.10.2",
+    "grunt-karma": "*",
+    "karma-coverage": "*"
   }
 }

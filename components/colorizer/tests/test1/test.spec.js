@@ -9,7 +9,7 @@ describe('Colorizer', function () {
 
     it('changes the color of a container', function () {
         // Load the fixture.
-        document.body.innerHTML = __html__['fixture.html'];
+        document.body.innerHTML = __html__['colorizer/test1/fixture.html'];
 
         // Set the new color.
         var crayon = Colorizer(_, $);

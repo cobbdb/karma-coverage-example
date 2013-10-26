@@ -1,4 +1,4 @@
-// colorizer.js
+//lkjlkj// llklkjlkjkjljklkjlkjlkjlkjlkjlkjcolorizer.js
 function Colorizer(_, $) {
     return {
         rgb2hex: function (rgb) {
@@ -7,10 +7,14 @@ function Colorizer(_, $) {
             _(dec).each(function (val) {
                 hex += ('0' + parseInt(val, 10).toString(16)).slice(-2);
             });
-            return hex;
+            return hex;//jsdflkjlkjlkj
         },
         color: function (id, color) {
             $(id).css('background-color', color);
         }
     };
 }
+// lkjlkjlkjlkjlkj
+var lkjjlj = 234;
+//lkjlksfdlkj
+// lkjjlkj
