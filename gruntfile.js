@@ -1,11 +1,10 @@
-// gruntfile.js
 module.exports = function (grunt) {
     grunt.initConfig({
         karma: {
             default: {
                 options: {
                     autoWatch: false,
-                    singleRun: true
+                    singleRun: true,
                     frameworks: ['jasmine'],
                     reporters: ['progress', 'coverage'],
                     port: 9876,
